@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #f5f5f5;
+  color: #f9f9f9;
   background: #f5f7f9;
 }
 @media (max-width: 767px) {
@@ -277,7 +277,7 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #555;
+  color: #f9f9f9;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
@@ -487,7 +487,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #f9f9f9;
   background: #eee;
   border-radius: 3px;
   font-size: 13px;
@@ -818,7 +818,7 @@ pre .javascript .function {
   font-size: 14px;
   color: #fff;
   background: #222;
-  border: 2px solid #f5f5f5;
+  border: 2px solid #f9f9f9;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -836,7 +836,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #f5f5f5;
+  background: #f9f9f9;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1325,7 +1325,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #f9f9f9;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1416,7 +1416,7 @@ pre .javascript .function {
   margin-top: 50px;
 }
 .post-button .btn {
-  color: #f5f5f5;
+  color: #f9f9f9;
   font-size: 14px;
   background: transparent;
   border-radius: 2px;
@@ -1457,7 +1457,7 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #f9f9f9;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1534,7 +1534,7 @@ pre .javascript .function {
 }
 .sidebar a {
   color: #999;
-  border-bottom-color: #555;
+  border-bottom-color: #f9f9f9;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1667,7 +1667,7 @@ pre .javascript .function {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #555;
+  border-bottom-color: #f9f9f9;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff28f4;
+  background: #ffd024;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1705,7 +1705,7 @@ pre .javascript .function {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #555;
+  color: #f9f9f9;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -2273,7 +2273,7 @@ pre .javascript .function {
   width: 10px;
   height: 10px;
   opacity: 0.5;
-  background: #555;
+  background: #f9f9f9;
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -2688,8 +2688,8 @@ pre .javascript .function {
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
-  background: #f9f9f9;
-  border-bottom-color: #fff;
+  background: rgba(222,104,179,0.5);
+  border-bottom-color: #666;
 }
 .menu .menu-item br {
   display: none;
@@ -2735,7 +2735,7 @@ pre .javascript .function {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #111;
+  color: #f9f9f9;
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2755,8 +2755,14 @@ pre .javascript .function {
 .site-author:after {
   clear: both;
 }
+.site-author-name {
+  margin: 0;
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: 600;
+}
 .sidebar a {
-  color: #555;
+  color: #f9f9f9;
 }
 .sidebar a:hover {
   color: #222;
